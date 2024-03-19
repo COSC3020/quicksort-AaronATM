@@ -15,6 +15,6 @@ Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
 
-The worst case time complexity of this implementation is $\theta(n^2logn)$
+The worst case time complexity of this implementation is $\Theta(n^2logn)$
 
-Reasoning: The time complexity of the quicksortIterative() function is $\theta(n^2)$ as in the worst case, the pivot starting at array[high] is the largest number in the array and will need to be compared against the entire array once and again to be sorted properly. The worst-case time complexity of the part() function is $\theta(logn)$, since the array will be split in two regardless of how it is sorted.
+Reasoning: The time complexity of the quicksortIterative() function is $\Theta(n^2)$ as in the worst case, the pivot starting at array[high] is the largest number in the array and will need to be compared against the entire array once and again to be sorted properly. The worst-case time complexity of the part() function is $\Theta(logn)$, since the array will be split in two regardless of how it is sorted.
