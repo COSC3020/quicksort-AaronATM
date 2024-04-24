@@ -17,4 +17,4 @@ markdown file.
 
 The worst case time complexity of this implementation is $\Theta(n^2)$
 
-Reasoning: The time complexity of the quicksortIterative() function is $\Theta(n^2)$ as in the worst case, the pivot starting at array[high] is the largest number in the array and will need to be compared against the entire array once and again to be sorted properly. The part() function has a constant time complexity because it does not change based on input size. Iterative quicksort should have the same time complexity as recursive quicksort.
+Reasoning: In a worst case, the quicksort pivot that is chosen is the worst, which gives quicksortIterative() a time complexity of $\Theta(n)$ as it will need to compare against the entire array. Regardless of case, the time complexity of the part() function is $\Theta(n)$.
